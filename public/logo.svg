@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100" width="400" height="100">
+
+  <!-- === EYE-SHOFAR MARK (left, 100px wide) === -->
+  <!-- Eye outer shape (ivory sclera) -->
+  <path d="M4,50 C16,18 84,18 96,50 C84,82 16,82 4,50 Z"
+        fill="#f8f7f4" stroke="#1a2744" stroke-width="2.5"/>
+  <!-- Iris navy background -->
+  <circle cx="50" cy="50" r="22" fill="#1a2744"/>
+  <!-- Gold iris ring -->
+  <circle cx="50" cy="50" r="17" fill="#c9a227"/>
+  <!-- Pupil -->
+  <circle cx="50" cy="50" r="10" fill="#1a2744"/>
+  <!-- Shofar silhouette inside pupil -->
+  <!-- The shofar is used as a telescope: narrow end at left (the eye), wide end pointing right (the direction of watching) -->
+  <path d="M42,47 Q46,40 54,41 Q60,43 62,49 Q60,55 54,57 Q46,58 42,53 Z"
+        fill="#c9a227" opacity="0.9"/>
+  <!-- Mouthpiece dot (narrow end, at the watching eye) -->
+  <circle cx="42" cy="50" r="2.5" fill="#1a2744"/>
+  <!-- Bell opening hint (wide/forward end) -->
+  <path d="M61,44 Q65,50 61,56" stroke="#1a2744" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  <!-- Eye highlight -->
+  <ellipse cx="62" cy="41" rx="4" ry="3" fill="white" opacity="0.3"/>
+
+  <!-- === VERTICAL GOLD DIVIDER === -->
+  <line x1="110" y1="10" x2="110" y2="90" stroke="#c9a227" stroke-width="1.5"/>
+
+  <!-- === TYPOGRAPHY === -->
+
+  <!-- "Watch" prefix — gold, smaller — the new meta-watching layer on top -->
+  <text x="122" y="35"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="17"
+        font-weight="400"
+        fill="#c9a227"
+        letter-spacing="3">Watch</text>
+
+  <!-- "Ministry" — navy, medium weight -->
+  <text x="122" y="63"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="26"
+        font-weight="400"
+        fill="#1a2744"
+        letter-spacing="0.5">Ministry</text>
+
+  <!-- "Watch" — navy, bold, dominant — the original watcher now being watched -->
+  <text x="122" y="90"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="32"
+        font-weight="700"
+        fill="#1a2744"
+        letter-spacing="1">Watch</text>
+
+  <!-- === TAGLINE (bottom right, italic) === -->
+  <text x="398" y="90"
+        font-family="Georgia, serif"
+        font-size="10"
+        font-style="italic"
+        fill="#6b6b6b"
+        text-anchor="end"
+        letter-spacing="0.3">Who watches the watchers?</text>
+
+</svg>

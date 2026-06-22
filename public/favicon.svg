@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Navy circle seal -->
+  <circle cx="50" cy="50" r="48" fill="#1a2744" stroke="#c9a227" stroke-width="3"/>
+  <!-- Eye shape (ivory sclera) -->
+  <path d="M10,50 C22,28 78,28 90,50 C78,72 22,72 10,50 Z" fill="#f8f7f4"/>
+  <!-- Iris navy background -->
+  <circle cx="50" cy="50" r="16" fill="#1a2744"/>
+  <!-- Gold iris ring -->
+  <circle cx="50" cy="50" r="12" fill="#c9a227"/>
+  <!-- Pupil -->
+  <circle cx="50" cy="50" r="7" fill="#1a2744"/>
+  <!-- Tiny shofar in pupil — used as surveillance instrument, wide end pointing right -->
+  <path d="M43,48 Q46,43 52,44 Q56,46 57,50 Q56,54 52,55 Q46,56 43,52 Z" fill="#c9a227" opacity="0.85"/>
+  <!-- Mouthpiece dot (the eye end) -->
+  <circle cx="43" cy="50" r="2" fill="#1a2744"/>
+  <!-- Eye highlight -->
+  <ellipse cx="58" cy="43" rx="4" ry="3" fill="white" opacity="0.35"/>
+</svg>
