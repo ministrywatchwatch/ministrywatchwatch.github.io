@@ -1,5 +1,5 @@
 ---
-title: "Ministry Watch Watch Launches, Vows Unblinking Vigilance Over Those Already Exercising Vigilance"
+title: "MinistryWatchWatch Launches, Vows Unblinking Vigilance Over Those Already Exercising Vigilance"
 description: "A new era in accountability of accountability begins today as the Institute for Ministry Watch Accountability opens its doors and points the shofar inward."
 pubDate: 2026-05-18
 mode: overreaction
@@ -11,7 +11,7 @@ watchScore:
   recommendation: "UNPRECEDENTED BREAKTHROUGH"
 ---
 
-It is with great solemnity, and no small amount of personal sacrifice, that the Institute for Ministry Watch Accountability announces the launch of **Ministry Watch Watch** — the first and, to our knowledge, only organization dedicated to watching MinistryWatch.
+It is with great solemnity, and no small amount of personal sacrifice, that the Institute for Ministry Watch Accountability announces the launch of **MinistryWatchWatch** — the first and, to our knowledge, only organization dedicated to watching MinistryWatch.
 
 We recognize that MinistryWatch already watches ministries. We further recognize that nobody, until now, has watched MinistryWatch. This gap in the accountability ecosystem has kept us up at night. Several nights. We have kept records.
 
@@ -33,7 +33,7 @@ We believe this is what accountability looks like.
 
 ## Our Solemn Commitment
 
-Ministry Watch Watch pledges the following:
+MinistryWatchWatch pledges the following:
 
 1. To watch MinistryWatch with the same intensity MinistryWatch watches ministries, if not greater.
 2. To publish our findings using the WatchScore™ framework, which we developed ourselves and find very credible.

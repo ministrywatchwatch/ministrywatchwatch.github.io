@@ -1,6 +1,6 @@
 ---
 title: "MinistryWatch Awards 'A' Rating to Cornerstone Family Ministries; Experts Struggle to Contain Themselves"
-description: "Ministry Watch Watch analysis of what may be the most significant moment in Christian nonprofit accountability since the invention of the Form 990."
+description: "MinistryWatchWatch analysis of what may be the most significant moment in Christian nonprofit accountability since the invention of the Form 990."
 pubDate: 2026-05-16
 mode: overreaction
 author: "Dr. Cornelius T. Watchwright III, CWO"
@@ -11,7 +11,7 @@ watchScore:
   recommendation: "UNPRECEDENTED BREAKTHROUGH"
 ---
 
-In what Ministry Watch Watch is prepared to call a significant moment in the history of Christian accountability, MinistryWatch has awarded Cornerstone Family Ministries an 'A' rating, citing strong financial transparency, efficient use of donated funds, and robust governance practices.
+In what MinistryWatchWatch is prepared to call a significant moment in the history of Christian accountability, MinistryWatch has awarded Cornerstone Family Ministries an 'A' rating, citing strong financial transparency, efficient use of donated funds, and robust governance practices.
 
 We have reviewed this development. We have reviewed it again. We have convened an emergency session of the Institute's Senior Fellows. The conclusion is unanimous: **this is very good news**.
 
@@ -19,7 +19,7 @@ We have reviewed this development. We have reviewed it again. We have convened a
 
 MinistryWatch's assessment reveals that Cornerstone Family Ministries spends 87% of revenue on program expenses, maintains a six-month operating reserve, and publishes audited financial statements in a timely manner. Their board is independent. Their CEO compensation falls within reasonable ranges for the sector.
 
-We cannot stress enough how notable this is. MinistryWatch rates ministries constantly. Not all of them receive A ratings. Cornerstone has. Ministry Watch Watch's Urgency Index registers this at 8 out of 10 — not because anything is wrong, but because something is deeply right, and the implications demand urgent attention.
+We cannot stress enough how notable this is. MinistryWatch rates ministries constantly. Not all of them receive A ratings. Cornerstone has. MinistryWatchWatch's Urgency Index registers this at 8 out of 10 — not because anything is wrong, but because something is deeply right, and the implications demand urgent attention.
 
 ## What This Means
 
@@ -29,7 +29,7 @@ Our analysts have modeled several scenarios following from this development:
 - **Scenario B**: The excellence documented here spreads to adjacent ministries in a kind of accountability contagion, resulting in a wholesale reformation of the Christian nonprofit sector.
 - **Scenario C**: This is the beginning of something. We don't know what. But it's beginning.
 
-Ministry Watch Watch officially endorses all three scenarios simultaneously.
+MinistryWatchWatch officially endorses all three scenarios simultaneously.
 
 ## MinistryWatch's Coverage: Near-Exemplary
 
