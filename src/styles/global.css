@@ -1,0 +1,63 @@
+:root {
+  --color-navy: #1a2744;
+  --color-navy-light: #243460;
+  --color-gold: #c9a227;
+  --color-gold-light: #e8c84a;
+  --color-red: #8b1a1a;
+  --color-bg: #f8f7f4;
+  --color-bg-alt: #eeece8;
+  --color-text: #2d2d2d;
+  --color-text-muted: #6b6b6b;
+  --color-border: #d4d0c8;
+
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Inter', system-ui, sans-serif;
+
+  --max-width: 860px;
+  --spacing-page: 1.5rem;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  color: var(--color-text);
+  background: var(--color-bg);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 2rem var(--spacing-page);
+  width: 100%;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-serif);
+  line-height: 1.2;
+}
+
+a {
+  color: var(--color-navy);
+}
+
+a:hover {
+  color: var(--color-gold);
+}
+
+p {
+  margin-bottom: 1rem;
+}
