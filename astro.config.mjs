@@ -1,6 +1,6 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  site: 'https://watchministrywatch.com',
+  site: 'https://ministrywatchwatch.com',
   output: 'static',
 });
