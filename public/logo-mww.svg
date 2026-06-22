@@ -30,15 +30,15 @@
         font-family="Georgia, 'Times New Roman', serif"
         font-size="22"
         font-weight="400"
-        fill="#1a2744"
+        fill="#ffffff"
         letter-spacing="0.5">Ministry</text>
 
-  <!-- "Watch" — navy, bold, dominant — MinistryWatch's own "Watch" -->
+  <!-- "Watch" — white, bold, dominant — MinistryWatch's own "Watch" -->
   <text x="122" y="62"
         font-family="Georgia, 'Times New Roman', serif"
         font-size="32"
         font-weight="700"
-        fill="#1a2744"
+        fill="#ffffff"
         letter-spacing="1">Watch</text>
 
   <!-- "Watch" — gold, smaller — the new watching layer at bottom -->

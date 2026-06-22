@@ -1,6 +1,6 @@
 ---
 title: "MinistryWatch Flags Concerns at Blessed Harvest International; Nation Urged to Remain Calm While Panicking Moderately"
-description: "An in-depth WatchMinistryWatch assessment of MinistryWatch's coverage of financial irregularities at a large international ministry, and what this means for all of us."
+description: "An in-depth Ministry Watch Watch assessment of MinistryWatch's coverage of financial irregularities at a large international ministry, and what this means for all of us."
 pubDate: 2026-05-14
 mode: overreaction
 author: "Prudence Vigilance-Howell, Director of Redundant Oversight"
@@ -13,7 +13,7 @@ watchScore:
 
 MinistryWatch has published a report raising concerns about Blessed Harvest International, noting that the organization has not filed its Form 990 for fiscal year 2024, has not responded to MinistryWatch's information requests, and received a "D" rating in the area of financial transparency.
 
-WatchMinistryWatch has reviewed this report. We have concerns about the concerns.
+Ministry Watch Watch has reviewed this report. We have concerns about the concerns.
 
 ## What MinistryWatch Found
 

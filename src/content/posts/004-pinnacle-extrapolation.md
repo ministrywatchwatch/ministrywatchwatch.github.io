@@ -1,5 +1,5 @@
 ---
-title: "MinistryWatch Notes CEO Compensation Increased 3%; WatchMinistryWatch Models the Eventual Outcome"
+title: "MinistryWatch Notes CEO Compensation Increased 3%; Ministry Watch Watch Models the Eventual Outcome"
 description: "A data-driven extrapolation of what a modest annual compensation increase could mean for the long-term distribution of wealth in Christian philanthropy."
 pubDate: 2026-05-12
 mode: extrapolation
@@ -13,7 +13,7 @@ watchScore:
 
 MinistryWatch recently noted, in its coverage of Pinnacle Ministries' annual financial filing, that CEO compensation increased by 3% in fiscal year 2024, from $187,000 to $192,610. MinistryWatch rated the ministry a "B" and noted the compensation as within reasonable ranges for an organization of its size.
 
-WatchMinistryWatch's Department of Trend Analysis has reviewed this data and produced the following extrapolative modeling.
+Ministry Watch Watch's Department of Trend Analysis has reviewed this data and produced the following extrapolative modeling.
 
 ## The Trajectory
 
@@ -31,7 +31,7 @@ We acknowledge that projecting to 2200 requires assumptions about organizational
 
 ## The Logical Conclusion
 
-Following this trajectory to its conclusion — and WatchMinistryWatch is committed to following trajectories to their conclusions, as it is in our founding documents — one individual will, at some point, earn a substantial salary from a Christian ministry. We do not know exactly when. The math is clear on the direction.
+Following this trajectory to its conclusion — and Ministry Watch Watch is committed to following trajectories to their conclusions, as it is in our founding documents — one individual will, at some point, earn a substantial salary from a Christian ministry. We do not know exactly when. The math is clear on the direction.
 
 Our analysts considered whether this is a problem. The answer, they concluded after extensive deliberation, is: it depends, and probably, and we should watch closely.
 
