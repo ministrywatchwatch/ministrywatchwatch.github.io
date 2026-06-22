@@ -1,0 +1,55 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="About" description="About the Institute for Ministry Watch Accountability.">
+  <article class="page">
+    <h1>About WatchMinistryWatch</h1>
+
+    <section>
+      <h2>Our Mission</h2>
+      <p>WatchMinistryWatch, the public-facing publication of the <strong>Institute for Ministry Watch Accountability (IMWA)</strong>, exists to perform the critical function of watching MinistryWatch — the organization that watches ministries. We believe that accountability requires accountability. And accountability of accountability requires further accountability. We have drawn the line at accountability of accountability of accountability, at least for now.</p>
+      <p>We publish our findings using the WatchScore™ framework, which we developed ourselves and find very credible.</p>
+    </section>
+
+    <section>
+      <h2>Our History</h2>
+      <p>WatchMinistryWatch was founded in 2026 by concerned individuals who noticed that while many organizations existed to watch ministries, no organization existed to watch the watchers. This gap in the accountability ecosystem was, we felt, unacceptable.</p>
+      <p>Our name derives from the ancient practice of appointing a watchman to sound the shofar as warning. We have taken the shofar and turned it around — using it not to broadcast alarms, but to peer through, watching those who would broadcast alarms at others. It felt important.</p>
+      <p>After extensive deliberation lasting approximately forty-five minutes, the Institute was chartered, self-certified, and immediately began watching.</p>
+    </section>
+
+    <section>
+      <h2>Awards and Recognition</h2>
+      <ul class="awards-list">
+        <li><strong>2026 Golden Surveillance Award</strong> — Self-Appointed Watchdog Organizations of America (Fictional)</li>
+        <li><strong>Certified Watcher of Watchers (CWW)</strong> — Institute for Ministry Watch Accountability (self-issued)</li>
+        <li><strong>Excellence in Redundant Oversight</strong> — Department of Watching Studies, IMWA</li>
+        <li><strong>Most Thorough Shofar Repurposing</strong> — WatchMinistryWatch Internal Awards Committee</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Disclosure</h2>
+      <p>WatchMinistryWatch is satire. The Institute for Ministry Watch Accountability is fictional. Our staff bios describe fictional people. The awards above do not exist. The Certified Watcher of Watchers designation is entirely made up. We have no affiliation with MinistryWatch or any ministry. Our WatchScores™ are comedic and do not reflect actual organizational quality.</p>
+    </section>
+  </article>
+</BaseLayout>
+
+<style>
+  .page { max-width: 720px; }
+  h1 { margin-bottom: 2rem; font-size: clamp(1.75rem, 4vw, 2.5rem); }
+  section { margin-bottom: 2rem; }
+  h2 {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid var(--color-border);
+  }
+  .awards-list { list-style: none; padding: 0; }
+  .awards-list li {
+    padding: 0.6rem 0;
+    border-bottom: 1px solid var(--color-bg-alt);
+    font-size: 0.95rem;
+  }
+</style>

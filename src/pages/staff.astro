@@ -1,0 +1,78 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const staff = [
+  {
+    name: 'Dr. Cornelius T. Watchwright III',
+    title: 'Chief Watching Officer (CWO)',
+    credentials: 'CWW, M.W.S. (Master of Watching Studies), Honorary D.Acc.',
+    bio: 'Dr. Watchwright founded the Institute for Ministry Watch Accountability after a vision he describes as "a strong intuition while reading." He has watched with distinction for over three years, making him one of the most experienced watchers in the field. His landmark paper, "On Watching Those Who Watch: A Framework," remains unpublished but is widely cited within the Institute.',
+  },
+  {
+    name: 'Prudence Vigilance-Howell',
+    title: 'Director of Redundant Oversight',
+    credentials: 'B.S. Communications, Certificate in Ministry Adjacent Studies',
+    bio: "Ms. Vigilance-Howell oversees the Institute's redundant oversight functions, ensuring that no oversight goes un-overseen. She previously served as an assistant to an accountability consultant and brings that experience to bear daily. She is the author of the WatchScore™ Urgency Index calibration tables, which she updates monthly or when she thinks of it.",
+  },
+  {
+    name: 'Rev. Thaddeus Overlook-Barnes',
+    title: 'Senior Fellow for Watching Studies',
+    credentials: 'M.Div., Certificate in Watching (self-study)',
+    bio: 'Rev. Overlook-Barnes brings a theological perspective to the watching work, asking hard questions such as "But are they watching biblically?" He is currently developing a systematic theology of watchfulness, working title: "Watchers, Watching, Watched: A Reformed Perspective on Accountability of Accountability."',
+  },
+  {
+    name: 'Mildred Scrutiny',
+    title: 'Director of Allegedly-Based Reporting',
+    credentials: 'B.A. Journalism (unverified)',
+    bio: 'Ms. Scrutiny heads the allegedly-based reporting division, applying rigorous allegedly-based methodology to adjacent facts. She has a gift for finding stories within stories, which colleagues describe as "impressive" and occasionally "concerning." Her motto: "Allegedly, there is always more to the story."',
+  },
+];
+---
+
+<BaseLayout title="Our Staff" description="Meet the distinguished team at WatchMinistryWatch.">
+  <article class="page">
+    <h1>Our Staff</h1>
+    <p class="intro">The Institute for Ministry Watch Accountability employs a distinguished team of watching professionals. Each brings unique credentials and an unblinking commitment to watching those who watch.</p>
+
+    <div class="staff-grid">
+      {staff.map(member => (
+        <div class="staff-card">
+          <div class="staff-avatar" aria-hidden="true">👁</div>
+          <div class="staff-info">
+            <h2>{member.name}</h2>
+            <p class="staff-title">{member.title}</p>
+            <p class="staff-credentials">{member.credentials}</p>
+            <p class="staff-bio">{member.bio}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .page { max-width: 720px; }
+  h1 { margin-bottom: 0.75rem; font-size: clamp(1.75rem, 4vw, 2.5rem); }
+  .intro { font-style: italic; color: var(--color-text-muted); margin-bottom: 2.5rem; font-size: 1.05rem; }
+  .staff-grid { display: flex; flex-direction: column; gap: 2rem; }
+  .staff-card {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    gap: 1.25rem;
+    border: 1px solid var(--color-border);
+    border-top: 3px solid var(--color-navy);
+    padding: 1.5rem;
+    background: white;
+  }
+  .staff-avatar {
+    font-size: 2rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 0.25rem;
+  }
+  h2 { font-size: 1.15rem; margin-bottom: 0.2rem; }
+  .staff-title { font-weight: 600; font-size: 0.85rem; color: var(--color-navy); margin-bottom: 0.15rem; }
+  .staff-credentials { font-size: 0.75rem; color: var(--color-text-muted); font-style: italic; margin-bottom: 0.75rem; }
+  .staff-bio { font-size: 0.9rem; line-height: 1.7; margin: 0; }
+</style>

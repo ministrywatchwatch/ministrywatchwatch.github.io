@@ -1,0 +1,92 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Methodology" description="How WatchMinistryWatch evaluates MinistryWatch's evaluations.">
+  <article class="page">
+    <h1>Our Methodology</h1>
+    <p class="intro">The WatchScore™ is WatchMinistryWatch's proprietary assessment framework. It evaluates MinistryWatch's coverage across two primary dimensions and synthesizes these into a final grade and official recommendation.</p>
+
+    <section>
+      <h2>Urgency Index (1–10)</h2>
+      <p>The Urgency Index measures the degree to which a MinistryWatch report demands immediate reader response. A score of 10 indicates the reader should, upon finishing the article, immediately stop what they are doing. A score of 1 indicates the reader may finish their lunch first, but should address the matter before dinner.</p>
+      <p>Scoring is determined by our Senior Fellow for Urgency Studies following rigorous internal review, which consists of one person reading the article and assessing how urgently they personally feel about it.</p>
+    </section>
+
+    <section>
+      <h2>Watchfulness Quotient (1–10)</h2>
+      <p>The Watchfulness Quotient assesses whether MinistryWatch watched with sufficient intensity. A score of 10 indicates exemplary watching. A score of 1 indicates what our analysts describe as "watching in a distracted, cursory manner, as though glancing at something while thinking about lunch."</p>
+    </section>
+
+    <section>
+      <h2>Overall WatchScore™ (A+ through F)</h2>
+      <p>The WatchScore™ synthesizes all available data using a proprietary formula that incorporates the Urgency Index, the Watchfulness Quotient, and a third variable we refer to internally as the <em>Je Ne Sais Quoi Factor</em>, which is unquantifiable but important.</p>
+    </section>
+
+    <section>
+      <h2>Official Recommendations</h2>
+      <table class="rec-table">
+        <thead>
+          <tr><th>Recommendation</th><th>Meaning</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>PANIC IMMEDIATELY</td><td>The situation is grave. Act now. We cannot stress the "now" enough.</td></tr>
+          <tr><td>CONCERNED BUT FUNCTIONAL</td><td>Concern is warranted. However, most organ systems should continue to operate.</td></tr>
+          <tr><td>CAUTIOUSLY OPTIMISTIC</td><td>Things appear to be going well. Exercise caution. Do not relax.</td></tr>
+          <tr><td>UNPRECEDENTED BREAKTHROUGH</td><td>Something unprecedented has occurred. History is being made, allegedly.</td></tr>
+          <tr><td>ALLEGEDLY FINE</td><td>All available evidence suggests things are fine. We cannot fully endorse this.</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Comedic Modes</h2>
+      <ul class="mode-list">
+        <li><strong>OVERREACTION ALERT:</strong> MinistryWatch reported something. We have reacted with a level of intensity the original report does not strictly require.</li>
+        <li><strong>EXTRAPOLATED ANALYSIS:</strong> MinistryWatch reported a fact. We have followed that fact to its logical conclusion, which is usually alarming or wonderful.</li>
+        <li><strong>ALLEGEDLY REPORTING:</strong> MinistryWatch reported something. We have reported on adjacent circumstances that allegedly exist, using the word "allegedly" as often as legally and grammatically possible.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>A Note on the Shofar</h2>
+      <p>MinistryWatch employs the image of a figure blowing a shofar — the ancient ram's horn used to sound warnings and summon attention. We find this symbolism apt. We have taken the shofar and pointed it the other direction. We are not blowing it. We are looking through it. The shofar, in our hands, is a surveillance instrument trained upon those who would surveil others.</p>
+      <p>We believe this is called accountability.</p>
+    </section>
+  </article>
+</BaseLayout>
+
+<style>
+  .page { max-width: 720px; }
+  h1 { margin-bottom: 0.75rem; font-size: clamp(1.75rem, 4vw, 2.5rem); }
+  .intro { font-style: italic; color: var(--color-text-muted); margin-bottom: 2rem; font-size: 1.05rem; }
+  section { margin-bottom: 2rem; }
+  h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid var(--color-border);
+  }
+  .rec-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; margin-top: 0.5rem; }
+  .rec-table th, .rec-table td {
+    border: 1px solid var(--color-border);
+    padding: 0.6rem 0.75rem;
+    text-align: left;
+  }
+  .rec-table th {
+    background: var(--color-navy);
+    color: white;
+    font-weight: 600;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .rec-table tr:nth-child(even) td { background: var(--color-bg-alt); }
+  .mode-list { list-style: none; padding: 0; }
+  .mode-list li {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--color-border);
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+</style>
