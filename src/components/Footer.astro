@@ -1,0 +1,56 @@
+---
+const year = new Date().getFullYear();
+---
+<footer>
+  <div class="footer-inner">
+    <div class="footer-main">
+      <p class="org-name">The Institute for Ministry Watch Accountability</p>
+      <p class="footer-desc">An independent, nonpartisan, self-appointed oversight body. Not affiliated with MinistryWatch. Not affiliated with any ministry. Not affiliated with any oversight body other than itself.</p>
+    </div>
+    <div class="footer-legal">
+      <p>© {year} WatchMinistryWatch. All watching rights reserved.</p>
+      <p>WatchMinistryWatch™ and the WatchScore™ are trademarks of the Institute for Ministry Watch Accountability, a Fictional Entity.</p>
+      <p>All content is satirical. The Certified Watcher of Watchers (CWW) designation is entirely made up.</p>
+    </div>
+  </div>
+</footer>
+
+<style>
+  footer {
+    background: var(--color-navy);
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 4rem;
+    border-top: 4px solid var(--color-gold);
+  }
+
+  .footer-inner {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 2rem var(--spacing-page);
+    display: grid;
+    gap: 1.5rem;
+  }
+
+  .org-name {
+    font-family: var(--font-serif);
+    font-size: 1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.4rem;
+  }
+
+  .footer-desc {
+    font-size: 0.8rem;
+    line-height: 1.5;
+  }
+
+  .footer-legal {
+    font-size: 0.7rem;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  .footer-legal p {
+    margin-bottom: 0.25rem;
+  }
+</style>
