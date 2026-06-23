@@ -87,7 +87,7 @@ npm install && npm install -D vitest
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  site: 'https://watchministrywatch.com',
+  site: 'https://ministrywatchwatch.com',
   output: 'static',
 });
 ```
@@ -103,7 +103,7 @@ In `package.json`, add to `"scripts"`:
 - [ ] **Step 5: Create `public/CNAME`**
 
 ```
-watchministrywatch.com
+ministrywatchwatch.com
 ```
 
 - [ ] **Step 6: Create `.github/workflows/deploy.yml`**
@@ -1842,8 +1842,8 @@ git add src/content/posts/ && git commit -m "feat: add 5 seed posts across all t
 Before pushing to GitHub Pages:
 
 - [ ] Create a new GitHub account separate from your personal account (use ProtonMail email)
-- [ ] Create a new repository named `watchministrywatch` on that account
+- [ ] Create a new repository named `ministrywatchwatch` on that account
 - [ ] Push local repo: `git remote add origin <new-repo-url> && git push -u origin main`
 - [ ] In GitHub repo Settings → Pages: set source to **GitHub Actions**
-- [ ] In Cloudflare DNS for `watchministrywatch.com`: add CNAME record `@` pointing to `<username>.github.io`
-- [ ] Verify `https://watchministrywatch.com` loads correctly after DNS propagates (up to 10 minutes with Cloudflare)
+- [ ] In Cloudflare DNS for `ministrywatchwatch.com`: add CNAME record `@` pointing to `<username>.github.io`
+- [ ] Verify `https://ministrywatchwatch.com` loads correctly after DNS propagates (up to 10 minutes with Cloudflare)

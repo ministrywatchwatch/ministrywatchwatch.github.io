@@ -11,9 +11,10 @@ describe('COMEDIC_MODES', () => {
 });
 
 describe('WATCH_RECOMMENDATIONS', () => {
-  it('contains all five official recommendations', () => {
+  it('contains all six official recommendations', () => {
     expect(WATCH_RECOMMENDATIONS).toContain('PANIC IMMEDIATELY');
     expect(WATCH_RECOMMENDATIONS).toContain('ALLEGEDLY FINE');
-    expect(WATCH_RECOMMENDATIONS).toHaveLength(5);
+    expect(WATCH_RECOMMENDATIONS).toContain('CONCERNED AND TAKING IT PERSONALLY');
+    expect(WATCH_RECOMMENDATIONS).toHaveLength(6);
   });
 });

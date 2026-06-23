@@ -29,6 +29,7 @@ const AUTHORS = [
   'Prudence Vigilance-Howell, Director of Redundant Oversight',
   'Rev. Thaddeus Overlook-Barnes, Senior Fellow for Watching Studies',
   'Mildred Scrutiny, Director of Allegedly-Based Reporting',
+  'Dr. Priscilla Heft-Morrow, Senior Fellow for Corporeal Accountability Studies',
 ];
 
 // Load .env manually (no dotenv dependency)
@@ -144,7 +145,7 @@ async function main() {
 
   console.log('\nAuthors:');
   AUTHORS.forEach((a, i) => console.log(`  ${i + 1}. ${a}`));
-  const authorInput = (await prompt(rl, 'Choose author [1-4, or Enter for Dr. Watchwright]: ')).trim();
+  const authorInput = (await prompt(rl, 'Choose author [1-5, or Enter for Dr. Watchwright]: ')).trim();
   const author = authorInput ? AUTHORS[parseInt(authorInput) - 1] ?? AUTHORS[0] : AUTHORS[0];
 
   rl.close();
