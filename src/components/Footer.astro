@@ -8,6 +8,23 @@ const year = new Date().getFullYear();
       <p class="footer-desc">An independent, nonpartisan, self-appointed oversight body. Not affiliated with MinistryWatch. Not affiliated with any ministry. Not affiliated with any oversight body other than itself.</p>
       <p class="footer-contact"><a href="mailto:ministrywatchwatch@proton.me">ministrywatchwatch@proton.me</a></p>
     </div>
+    <div class="footer-subscribe">
+      <p class="subscribe-label">Get new articles by email</p>
+      <form
+        action="https://buttondown.com/api/emails/embed-subscribe/ministrywatchwatch"
+        method="post"
+        class="embeddable-buttondown-form"
+      >
+        <label for="bd-email">Enter your email</label>
+        <input type="email" name="email" id="bd-email" placeholder="you@example.com" />
+        <input type="submit" value="Subscribe" />
+        <p class="bd-powered">
+          <a href="https://buttondown.com/refer/ministrywatchwatch" target="_blank">
+            Powered by Buttondown.
+          </a>
+        </p>
+      </form>
+    </div>
     <div class="footer-legal">
       <p>© {year} MinistryWatchWatch. All watching rights reserved.</p>
       <p>MinistryWatchWatch™ and the WatchScore™ are trademarks of the Institute for Ministry Watch Accountability, a Fictional Entity.</p>
@@ -57,6 +74,75 @@ const year = new Date().getFullYear();
 
   .footer-contact a:hover {
     text-decoration: underline;
+  }
+
+  .footer-subscribe {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 1.25rem;
+  }
+
+  .subscribe-label {
+    font-family: var(--font-serif);
+    font-size: 0.9rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+  }
+
+  .embeddable-buttondown-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  .embeddable-buttondown-form label {
+    display: none;
+  }
+
+  .embeddable-buttondown-form input[type="email"] {
+    flex: 1;
+    min-width: 200px;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.08);
+    color: white;
+    font-size: 0.85rem;
+    border-radius: 3px;
+  }
+
+  .embeddable-buttondown-form input[type="email"]::placeholder {
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  .embeddable-buttondown-form input[type="submit"] {
+    padding: 0.5rem 1rem;
+    background: var(--color-gold);
+    color: var(--color-navy);
+    border: none;
+    font-size: 0.85rem;
+    font-weight: 700;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .embeddable-buttondown-form input[type="submit"]:hover {
+    opacity: 0.9;
+  }
+
+  .bd-powered {
+    width: 100%;
+    font-size: 0.7rem;
+    margin-top: 0.25rem;
+  }
+
+  .bd-powered a {
+    color: rgba(255, 255, 255, 0.3);
+    text-decoration: none;
+  }
+
+  .bd-powered a:hover {
+    color: rgba(255, 255, 255, 0.6);
   }
 
   .footer-legal {
