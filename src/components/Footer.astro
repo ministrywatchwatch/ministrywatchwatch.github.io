@@ -6,6 +6,7 @@ const year = new Date().getFullYear();
     <div class="footer-main">
       <p class="org-name">The Institute for Ministry Watch Accountability</p>
       <p class="footer-desc">An independent, nonpartisan, self-appointed oversight body. Not affiliated with MinistryWatch. Not affiliated with any ministry. Not affiliated with any oversight body other than itself.</p>
+      <p class="footer-contact"><a href="mailto:ministrywatchwatch@proton.me">ministrywatchwatch@proton.me</a></p>
     </div>
     <div class="footer-legal">
       <p>© {year} MinistryWatchWatch. All watching rights reserved.</p>
@@ -42,6 +43,20 @@ const year = new Date().getFullYear();
   .footer-desc {
     font-size: 0.8rem;
     line-height: 1.5;
+  }
+
+  .footer-contact {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+  }
+
+  .footer-contact a {
+    color: var(--color-gold);
+    text-decoration: none;
+  }
+
+  .footer-contact a:hover {
+    text-decoration: underline;
   }
 
   .footer-legal {
