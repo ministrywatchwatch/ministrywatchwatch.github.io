@@ -1,5 +1,5 @@
 ---
-title: "IMWA Trend Analysis: At Current Rates, EPC Will Have Completed Full Theological Journey by 2031; We Have Done the Math"
+title: "IMWA Trend Analysis: At Current Rates, EPC Will Have Completed Full Theological Journey by 2153; We Have Done the Math"
 description: "The Institute for Ministry Watch Accountability applies rigorous projection modeling to the EPC's recent ordination vote and arrives at conclusions that the denomination's own General Assembly has not yet considered."
 pubDate: 2026-06-24
 mode: extrapolation
