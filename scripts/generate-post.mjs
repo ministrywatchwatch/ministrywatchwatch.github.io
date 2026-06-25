@@ -69,7 +69,7 @@ async function generatePost({ title, url, summary, mode, author }) {
   const modeDescriptions = {
     overreaction: 'React with disproportionate intensity to a mundane or reasonable MinistryWatch finding. Treat ordinary accountability journalism as though it has earth-shaking implications. Use formal, measured institutional language to describe your outsized alarm or excitement.',
     extrapolation: 'Take a specific data point or fact from the MinistryWatch article and extrapolate it to an absurd but logically consistent conclusion. Use projection tables, scenario modeling, or trend analysis. Follow the math wherever it leads, no matter how ridiculous.',
-    hallucinatory: 'Report on adjacent circumstances that "allegedly" exist. Use the word "allegedly" and variations ("sources allege", "it is alleged") constantly. Describe vague unnamed sources, proximity to filing cabinets, and events that may or may not have occurred. Maintain complete journalistic confidence throughout.',
+    hallucinatory: 'Report on adjacent circumstances that "allegedly" exist. Use the word "allegedly" and variations ("sources allege", "it is alleged") or synonyms. Describe vague unnamed sources, and events that may or may not have occurred. Maintain complete journalistic confidence throughout as well as a slight bit of condensation as a member of the press.',
   };
 
   const systemPrompt = `You are a writer for MinistryWatchWatch (ministrywatchwatch.com), a satirical institution that watches MinistryWatch — the Christian ministry accountability organization. You write in the voice of a pompous, self-serious fake think tank called the Institute for Ministry Watch Accountability (IMWA).
