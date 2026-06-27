@@ -22,3 +22,15 @@ export function recommendationToSentence(rec: WatchScore['recommendation']): str
 export function renderBar(value: number): string {
   return '█'.repeat(value) + '░'.repeat(10 - value);
 }
+
+export function recommendationToAlertStyle(rec: WatchScore['recommendation']): { bg: string; text: string } {
+  const styles: Record<WatchScore['recommendation'], { bg: string; text: string }> = {
+    'PANIC IMMEDIATELY':                  { bg: '#c0392b', text: '#ffffff' },
+    'CONCERNED BUT FUNCTIONAL':           { bg: '#e67e22', text: '#ffffff' },
+    'CONCERNED AND TAKING IT PERSONALLY': { bg: '#d35400', text: '#ffffff' },
+    'CAUTIOUSLY OPTIMISTIC':              { bg: '#f39c12', text: '#1a2744' },
+    'ALLEGEDLY FINE':                     { bg: '#7daa6f', text: '#ffffff' },
+    'UNPRECEDENTED BREAKTHROUGH':         { bg: '#27ae60', text: '#ffffff' },
+  };
+  return styles[rec];
+}
