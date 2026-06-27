@@ -6,9 +6,10 @@ interface Props {
   slug: string;
   mode: string;
   recommendation: string;
+  series?: { name: string; episode: number };
 }
 
-const { title, description, pubDate, slug, mode, recommendation } = Astro.props;
+const { title, description, pubDate, slug, mode, recommendation, series } = Astro.props;
 
 const modeLabel: Record<string, string> = {
   overreaction: 'OVERREACTION ALERT',
@@ -24,6 +25,9 @@ const formattedDate = pubDate.toLocaleDateString('en-US', {
 <article class="post-card">
   <div class="card-meta">
     <span class="mode-tag">{modeLabel[mode] ?? mode.toUpperCase()}</span>
+    {series && (
+      <span class="series-tag">{series.name.toUpperCase()} · PART {series.episode}</span>
+    )}
     <time datetime={pubDate.toISOString()}>{formattedDate}</time>
   </div>
   <h2><a href={`/posts/${slug}`}>{title}</a></h2>
@@ -57,6 +61,16 @@ const formattedDate = pubDate.toLocaleDateString('en-US', {
     font-weight: 700;
     background: var(--color-navy);
     color: white;
+    padding: 0.2rem 0.5rem;
+  }
+
+  .series-tag {
+    font-size: 0.6rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: var(--color-gold);
+    color: var(--color-navy);
     padding: 0.2rem 0.5rem;
   }
 

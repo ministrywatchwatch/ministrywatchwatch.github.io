@@ -1,6 +1,7 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 import WatchScore from '../components/WatchScore.astro';
+import SeriesNav from '../components/SeriesNav.astro';
 import type { WatchScore as WatchScoreType } from '../lib/types';
 
 interface Props {
@@ -10,9 +11,12 @@ interface Props {
   author: string;
   mode: string;
   watchScore: WatchScoreType;
+  series?: { name: string; episode: number };
+  seriesPrev?: { title: string; slug: string; episode: number };
+  seriesNext?: { title: string; slug: string; episode: number };
 }
 
-const { title, description, pubDate, author, mode, watchScore } = Astro.props;
+const { title, description, pubDate, author, mode, watchScore, series, seriesPrev, seriesNext } = Astro.props;
 
 const formattedDate = pubDate.toLocaleDateString('en-US', {
   year: 'numeric', month: 'long', day: 'numeric',
@@ -28,7 +32,12 @@ const modeLabel: Record<string, string> = {
 <BaseLayout title={title} description={description}>
   <article class="post">
     <header class="post-header">
-      <span class="mode-tag">{modeLabel[mode] ?? mode.toUpperCase()}</span>
+      <div class="post-tags">
+        <span class="mode-tag">{modeLabel[mode] ?? mode.toUpperCase()}</span>
+        {series && (
+          <span class="series-tag">{series.name.toUpperCase()} · PART {series.episode}</span>
+        )}
+      </div>
       <h1>{title}</h1>
       <div class="post-byline">
         <span>By {author}</span>
@@ -42,12 +51,28 @@ const modeLabel: Record<string, string> = {
     <div class="post-body">
       <slot />
     </div>
+
+    {series && (
+      <SeriesNav
+        seriesName={series.name}
+        prev={seriesPrev}
+        next={seriesNext}
+      />
+    )}
   </article>
 </BaseLayout>
 
 <style>
   .post {
     max-width: 720px;
+  }
+
+  .post-tags {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 0.75rem;
   }
 
   .mode-tag {
@@ -59,7 +84,17 @@ const modeLabel: Record<string, string> = {
     color: white;
     padding: 0.2rem 0.5rem;
     display: inline-block;
-    margin-bottom: 0.75rem;
+  }
+
+  .series-tag {
+    font-size: 0.6rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: var(--color-gold);
+    color: var(--color-navy);
+    padding: 0.2rem 0.5rem;
+    display: inline-block;
   }
 
   h1 {

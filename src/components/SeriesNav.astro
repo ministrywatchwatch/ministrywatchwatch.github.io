@@ -1,0 +1,100 @@
+---
+interface Props {
+  seriesName: string;
+  prev?: { title: string; slug: string; episode: number };
+  next?: { title: string; slug: string; episode: number };
+}
+
+const { seriesName, prev, next } = Astro.props;
+---
+
+<nav class="series-nav">
+  <div class="series-nav-label">
+    <span class="series-icon">⬛</span>
+    <span>{seriesName.toUpperCase()} · ONGOING INVESTIGATION</span>
+  </div>
+  <div class="series-nav-links">
+    {prev ? (
+      <a href={`/posts/${prev.slug}`} class="nav-link nav-prev">
+        <span class="nav-direction">← Part {prev.episode}</span>
+        <span class="nav-title">{prev.title}</span>
+      </a>
+    ) : <span />}
+    {next ? (
+      <a href={`/posts/${next.slug}`} class="nav-link nav-next">
+        <span class="nav-direction">Part {next.episode} →</span>
+        <span class="nav-title">{next.title}</span>
+      </a>
+    ) : <span />}
+  </div>
+</nav>
+
+<style>
+  .series-nav {
+    margin-top: 3rem;
+    border: 1px solid var(--color-border);
+    border-top: 3px solid var(--color-gold);
+    background: white;
+  }
+
+  .series-nav-label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.6rem 1rem;
+    background: var(--color-navy);
+    color: var(--color-gold);
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    font-family: var(--font-sans);
+  }
+
+  .series-icon {
+    font-size: 0.5rem;
+  }
+
+  .series-nav-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+  }
+
+  .nav-link {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    padding: 1rem 1.25rem;
+    text-decoration: none;
+    color: var(--color-text);
+    border: 1px solid transparent;
+    transition: background 0.15s;
+  }
+
+  .nav-link:hover {
+    background: var(--color-bg-alt);
+    color: var(--color-text);
+  }
+
+  .nav-next {
+    text-align: right;
+    border-left: 1px solid var(--color-border);
+  }
+
+  .nav-direction {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-gold);
+    font-family: var(--font-sans);
+  }
+
+  .nav-title {
+    font-size: 0.85rem;
+    font-family: var(--font-serif);
+    line-height: 1.4;
+    color: var(--color-navy);
+  }
+</style>

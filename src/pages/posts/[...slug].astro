@@ -4,13 +4,34 @@ import PostLayout from '../../layouts/PostLayout.astro';
 
 export async function getStaticPaths() {
   const posts = await getCollection('posts');
-  return posts.map(post => ({
-    params: { slug: post.id },
-    props: { post },
-  }));
+  return posts.map(post => {
+    let seriesPrev: { title: string; slug: string; episode: number } | undefined;
+    let seriesNext: { title: string; slug: string; episode: number } | undefined;
+
+    if (post.data.series) {
+      const seriesPosts = posts
+        .filter(p => p.data.series?.name === post.data.series!.name)
+        .sort((a, b) => a.data.series!.episode - b.data.series!.episode);
+
+      const idx = seriesPosts.findIndex(p => p.id === post.id);
+      if (idx > 0) {
+        const prev = seriesPosts[idx - 1];
+        seriesPrev = { title: prev.data.title, slug: prev.id, episode: prev.data.series!.episode };
+      }
+      if (idx < seriesPosts.length - 1) {
+        const next = seriesPosts[idx + 1];
+        seriesNext = { title: next.data.title, slug: next.id, episode: next.data.series!.episode };
+      }
+    }
+
+    return {
+      params: { slug: post.id },
+      props: { post, seriesPrev, seriesNext },
+    };
+  });
 }
 
-const { post } = Astro.props;
+const { post, seriesPrev, seriesNext } = Astro.props;
 const { Content } = await render(post);
 ---
 
@@ -21,6 +42,9 @@ const { Content } = await render(post);
   author={post.data.author}
   mode={post.data.mode}
   watchScore={post.data.watchScore}
+  series={post.data.series}
+  seriesPrev={seriesPrev}
+  seriesNext={seriesNext}
 >
   <Content />
 </PostLayout>

@@ -26,6 +26,7 @@ const posts = (await getCollection('posts')).sort(
         slug={post.id}
         mode={post.data.mode}
         recommendation={post.data.watchScore.recommendation}
+        series={post.data.series}
       />
     ))}
   </section>

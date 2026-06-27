@@ -17,6 +17,10 @@ const posts = defineCollection({
       recommendation: z.enum(WATCH_RECOMMENDATIONS),
     }),
     author: z.string().default('Dr. Cornelius T. Watchwright III, CWO'),
+    series: z.object({
+      name: z.string(),
+      episode: z.number().int().positive(),
+    }).optional(),
   }),
 });
 
