@@ -2,6 +2,7 @@
 import BaseLayout from './BaseLayout.astro';
 import WatchScore from '../components/WatchScore.astro';
 import SeriesNav from '../components/SeriesNav.astro';
+import AlertBanner from '../components/AlertBanner.astro';
 import type { WatchScore as WatchScoreType } from '../lib/types';
 
 interface Props {
@@ -45,6 +46,12 @@ const modeLabel: Record<string, string> = {
       </div>
       <p class="post-description">{description}</p>
     </header>
+
+    <AlertBanner
+      recommendation={watchScore.recommendation}
+      urgencyIndex={watchScore.urgencyIndex}
+      watchfulnessQuotient={watchScore.watchfulnessQuotient}
+    />
 
     <WatchScore {...watchScore} />
 
