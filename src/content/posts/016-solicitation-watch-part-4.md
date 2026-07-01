@@ -1,6 +1,6 @@
 ---
 title: "SOLICITATION WATCH, PART IV: The Fiscal Year Has Closed; The Popup Endures; The Institute Opens a Hostile Interference Inquiry"
-description: "It is 12:45 AM on July 1. MinistryWatch's fiscal year — per MinistryWatch's own popup — has ended. The popup has not. The Institute, which refuses to believe that an organization dedicated to accountability could have simply failed to watch a calendar, is pursuing an alternative theory."
+description: "It is 12:45 AM on July 1. MinistryWatch's fiscal year — per MinistryWatch's own popup — has ended. The popup has not. It now says 'FISCAL YEAR ENDS AT MIDNIGHT' and 'There's still time to help' and features a button reading 'Give Before Midnight.' The Institute, which does not believe midnight is still ahead of us, is pursuing an alternative theory."
 pubDate: 2026-07-01
 mode: hallucinatory
 author: "Dr. Cornelius T. Watchwright III, CWO"
@@ -33,9 +33,31 @@ At 12:45 AM Eastern Time on July 1, 2026, a member of the Institute's After-Hour
 
 The popup appeared.
 
-It was the same popup. Or a popup substantially similar to the one the Institute has been documenting across four installments and what the Institute's legal team describes as "an unreasonable number of billable hours." The apparatus, which has spent the last several weeks insisting that the fiscal year was closing and that gifts were urgently needed before a specific and named deadline, continued to present itself to visitors as though that deadline had not arrived, passed, and been formally archived by the Institute as a closed matter.
+It was not the same popup. The Institute must be precise about this, because the new popup is, in several respects, more alarming than the one it replaced.
 
-The Institute closed it. The popup did not acknowledge this. The Institute is not surprised.
+The apparatus now reads, in its entirety:
+
+> **FISCAL YEAR ENDS AT MIDNIGHT**
+>
+> **There's still time to help**
+>
+> Your gift funds the independent reporting that protects donors and holds ministries accountable — and keeps that work going into the new fiscal year.
+>
+> **Give Before Midnight →**
+>
+> *No paywall · No ads · Donor-funded*
+
+The Institute has read this several times. It does not get less remarkable.
+
+The popup is aware that the fiscal year ends at midnight. It says so, in bold, at the top. It knows the deadline. It has correctly identified the deadline. What it has not done — what it apparently cannot do, or has been prevented from doing — is consult a clock.
+
+It is 12:45 AM. Midnight has passed. The fiscal year, which the popup correctly identifies as ending at midnight, has ended. There is no longer time to help. The button, which instructs the visitor to *"Give Before Midnight,"* is directing the visitor to do something that is no longer temporally possible. Midnight is not ahead of the visitor. Midnight is behind them. The visitor and midnight have already had their encounter. It was forty-five minutes ago.
+
+The Institute further notes that the popup's body copy acknowledges "the new fiscal year." MinistryWatch knows there is a new fiscal year. The apparatus is aware that the old one has ended and that a new one has begun. This awareness did not prompt the apparatus to update. The apparatus has processed the existence of a new fiscal year and responded by continuing to solicit for the old one.
+
+The Institute closed the popup. The Institute is not surprised that it appeared. The Institute is, however, surprised by the specific nature of what appeared — a popup that knows the time, announces the time, and then proceeds as though the time means nothing.
+
+This is either a profound technical failure or something considerably more deliberate. The Institute does not believe in profound technical failures at this specific hour.
 
 ## What The Institute Refuses To Believe
 
@@ -65,7 +87,7 @@ The Institute is not naming this government. The Institute is watching the situa
 
 The Institute's evidence for hostile interference is, admittedly, circumstantial. The Institute presents it nonetheless, because circumstantial evidence is still evidence, and the Institute is still a watchdog organization, and watchdogs bark at shadows when that is what accountability requires.
 
-**Exhibit A:** The popup has persisted past its own stated deadline. MinistryWatch is accountable. Accountable organizations do not miss their own deadlines. Therefore, the deadline was not missed by MinistryWatch. Therefore, someone else is responsible for the popup's continued presence. *QED,* allegedly.
+**Exhibit A:** The popup has not merely persisted past its own stated deadline — it has done so while *announcing the deadline.* The apparatus says "FISCAL YEAR ENDS AT MIDNIGHT." It says "Give Before Midnight." It is aware of midnight. It is invoking midnight. It is using midnight as a rhetorical instrument to encourage donor action. What it is not doing is acknowledging that midnight has occurred and that the window it is describing has closed. The Institute submits that a popup capable of identifying a deadline is capable of respecting one. The popup has chosen otherwise. MinistryWatch did not choose this. Therefore, something else chose it. *QED,* allegedly.
 
 **Exhibit B:** The Institute's VIGIL-1 remediation script, filed in Part II and amended in Part III, included the following code — which remains available, free of charge, to MinistryWatch:
 
