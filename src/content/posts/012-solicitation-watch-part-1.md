@@ -76,7 +76,7 @@ The Institute does not say this is wrong. The Institute says it is interesting. 
 
 A hypothesis has begun to take shape in the Institute's working sessions, which we present here not as a conclusion but as a matter requiring further investigation.
 
-**The Donor-Filter Hypothesis** holds that the persistent popup is not a design failure but a design feature. The argument proceeds as follows: MinistryWatch's audience consists, by definition, of people who care about Christian ministry accountability — a population that skews, the Institute hypothesizes, toward charitable disposition. A popup that aggressively solicits donations upon every visit will, over time, drive away visitors unwilling to be solicited. The visitors who remain are those who tolerate — or even welcome — being asked for money. These visitors are, by definition, more likely to give.
+**[The Donor-Filter Hypothesis](/imwa/donor-filter-hypothesis)** holds that the persistent popup is not a design failure but a design feature. The argument proceeds as follows: MinistryWatch's audience consists, by definition, of people who care about Christian ministry accountability — a population that skews, the Institute hypothesizes, toward charitable disposition. A popup that aggressively solicits donations upon every visit will, over time, drive away visitors unwilling to be solicited. The visitors who remain are those who tolerate — or even welcome — being asked for money. These visitors are, by definition, more likely to give.
 
 The popup, on this reading, is not annoying. It is a filter. MinistryWatch is not failing to remember that you dismissed it. MinistryWatch is testing whether you are the kind of person who gives.
 

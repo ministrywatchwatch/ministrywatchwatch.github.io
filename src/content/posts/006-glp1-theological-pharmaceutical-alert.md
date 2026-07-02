@@ -45,7 +45,7 @@ MinistryWatch could have issued guidance clarifying whether pharmaceutical-assis
 
 MinistryWatch could have convened a working group. No working group has been convened. We have checked.
 
-In the absence of MinistryWatch action, MinistryWatchWatch has developed our own framework: the Body Mass Watchfulness Index™ (BMWI™), which we are pleased to introduce today. The BMWI™ does not measure body mass. We want to be clear about this. It measures the watchfulness applied to questions adjacent to body mass, within a ministry accountability context. We believe this distinction is important. Our legal team agrees, conditionally.
+In the absence of MinistryWatch action, MinistryWatchWatch has developed our own framework: the [Body Mass Watchfulness Index™ (BMWI™)](/imwa/body-mass-watchfulness-index), which we are pleased to introduce today. The BMWI™ does not measure body mass. We want to be clear about this. It measures the watchfulness applied to questions adjacent to body mass, within a ministry accountability context. We believe this distinction is important. Our legal team agrees, conditionally.
 
 ## Our Formal Recommendation
 

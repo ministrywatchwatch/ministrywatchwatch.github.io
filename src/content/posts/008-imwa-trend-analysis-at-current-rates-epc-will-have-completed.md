@@ -16,7 +16,7 @@ The Institute for Ministry Watch Accountability has reviewed MinistryWatch's cov
 
 ## The Baseline Data
 
-For purposes of our projection model, we have established the following baseline: The EPC was founded in 1981. For approximately 43 years, the denomination maintained its prior ordination standards. It has now moved one incremental step in a new directional bearing. This establishes a rate of change. The rate of change is, specifically, one incremental theological adjustment per 43 years. This is our foundational figure. We call it the Overlook-Barnes Ecclesiastical Drift Coefficient, and we have named it after ourselves because no one else has done this work.
+For purposes of our projection model, we have established the following baseline: The EPC was founded in 1981. For approximately 43 years, the denomination maintained its prior ordination standards. It has now moved one incremental step in a new directional bearing. This establishes a rate of change. The rate of change is, specifically, one incremental theological adjustment per 43 years. This is our foundational figure. We call it the [Overlook-Barnes Ecclesiastical Drift Coefficient](/imwa/overlook-barnes-coefficient), and we have named it after ourselves because no one else has done this work.
 
 ## The Projection Table
 
