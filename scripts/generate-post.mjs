@@ -63,7 +63,7 @@ function slugify(title) {
     .slice(0, 60);
 }
 
-async function generatePost({ title, url, summary, mode, author }) {
+async function generatePost({ title, url, summary, direction, mode, author }) {
   const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 
   const modeDescriptions = {
@@ -100,7 +100,7 @@ The body should be 4-7 paragraphs. Use ## headings to break up sections. End wit
 Title: ${title}
 URL: ${url}
 ${summary ? `Summary: ${summary}` : ''}
-
+${direction ? `\nEDITORIAL DIRECTION: ${direction}` : ''}
 Generate a satirical MinistryWatchWatch assessment of MinistryWatch's coverage of this topic.`;
 
   process.stdout.write('\nGenerating post with Claude...');
@@ -137,6 +137,7 @@ async function main() {
   const url = (await prompt(rl, 'MinistryWatch article URL: ')).trim();
   const title = (await prompt(rl, 'Article title: ')).trim();
   const summary = (await prompt(rl, 'Brief summary/excerpt (optional, press Enter to skip): ')).trim();
+  const direction = (await prompt(rl, 'Editorial direction / additional context for the LLM (optional, press Enter to skip): ')).trim();
 
   console.log('\nComedic modes:');
   MODES.forEach((m, i) => console.log(`  ${i + 1}. ${m}`));
@@ -155,7 +156,7 @@ async function main() {
     process.exit(1);
   }
 
-  const post = await generatePost({ title, url, summary, mode, author });
+  const post = await generatePost({ title, url, summary, direction, mode, author });
 
   const num = await getNextPostNumber();
   const slug = slugify(post.title);
