@@ -16,7 +16,7 @@ The Institute for Ministry Watch Accountability has been monitoring MinistryWatc
 
 ## The Gemstone Parallel: A Preliminary Assessment
 
-It is alleged — and we wish to be precise here — that at least one unnamed source in the greater Nashville media corridor has described the unfolding situation as "basically a Gemstone episode, except the production budget for the raid appears to have been higher." The Gemstone family patriarch, one Bobby Lee Gemstone, is known to audiences as a man of considerable charisma, considerable financial opacity, and a gift for subdued press conferences that follow otherwise dramatic events. It is alleged that certain observers watching Reverend Locke's July 12 congregational address noted a tonal similarity they found, in the words of one source who requested anonymity because they were not authorized to make television comparisons, "unmistakable." We report this. We do not confirm it.
+It is alleged — and we wish to be precise here — that at least one unnamed source in the greater Nashville media corridor has described the unfolding situation as "basically a Gemstone episode, except the production budget for the raid appears to have been higher." The Gemstone family patriarch, one Dr. Eli Gemstone, is known to audiences as a man of considerable charisma, considerable financial opacity, and a gift for subdued press conferences that follow otherwise dramatic events. It is alleged that certain observers watching Reverend Locke's July 12 congregational address noted a tonal similarity they found, in the words of one source who requested anonymity because they were not authorized to make television comparisons, "unmistakable." We report this. We do not confirm it.
 
 ## The Sixty-Agent Question
 
