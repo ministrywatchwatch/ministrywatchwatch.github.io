@@ -32,15 +32,13 @@ const AUTHORS = [
   'Dr. Priscilla Heft-Morrow, Senior Fellow for Corporeal Accountability Studies',
 ];
 
-// Load .env manually (no dotenv dependency)
-async function loadEnv() {
+// Load .env from repo root via Node's built-in parser (no dotenv dependency)
+function loadEnv() {
   try {
-    const env = await fs.readFile(path.join(__dirname, '../.env'), 'utf-8');
-    for (const line of env.split('\n')) {
-      const [key, ...rest] = line.split('=');
-      if (key && rest.length) process.env[key.trim()] = rest.join('=').trim();
-    }
-  } catch {}
+    process.loadEnvFile(path.join(__dirname, '../.env'));
+  } catch (err) {
+    if (err.code !== 'ENOENT') throw err;
+  }
 }
 
 function prompt(rl, question) {
@@ -122,7 +120,7 @@ Generate a satirical MinistryWatchWatch assessment of MinistryWatch's coverage o
 }
 
 async function main() {
-  await loadEnv();
+  loadEnv();
 
   if (!process.env.ANTHROPIC_API_KEY) {
     console.error('Error: ANTHROPIC_API_KEY not set. Add it to .env or your environment.');
